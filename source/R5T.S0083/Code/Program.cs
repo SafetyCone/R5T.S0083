@@ -7,7 +7,15 @@ namespace R5T.S0083
     {
         static void Main()
         {
-            Console.WriteLine("Hello World!");
+            //VersionExperiments.Instance.ParsingTooManyTokens();
+            //VersionExperiments.Instance.ParsingMultipleZeros();
+            //VersionExperiments.Instance.ParsingSingleDigit();
+            //VersionExperiments.Instance.ParsingSingleDigit_WithDot();
+            //VersionExperiments.Instance.ParsingTwoDigits();
+
+            //VersionDemonstrations.Instance.Get_VersionFromVersionName();
+            //VersionDemonstrations.Instance.Get_VersionNameFromVersion();
+            VersionDemonstrations.Instance.Choose_HighestSubVersionOf();
         }
     }
 }
